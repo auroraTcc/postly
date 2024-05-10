@@ -1,5 +1,5 @@
 <?php
-    require ("../conexao.php")
+    require ("../conexao.php");
 
     class Usuario {
         public $nome;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="geral">
+        <div>
+            <div class="texto">
+                    <h2>que bom lhe ver de novo!</h2>
+                    <h3>novo por aqui? <a href="registro.html">Criar conta.</a></h3>
+            </div>
+        </div>
+        <form>
+            <div class="campo">
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="senha">
+                <label for="senha">senha:</label>
+                <input type="password" name="senha" id="senha" required>
+                <div class="icon">
+                    <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+                </div>
+            </div>
+            <button class="botao" type="submit">entrar</button>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #BBAA8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+fieldset{
+    border: 0;
+}
+input, select, button{
+    border-radius: 5px;
+}
+form{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 2.4rem 3.8rem;
+}
+a:link{
+    color: #63A483;
+    text-decoration: none;
+}
+.geral{
+    background-color: #F4F8F6;
+    border-radius: 5px;
+}
+.texto{
+    padding: 5rem 3.8rem 0rem 3.8rem;
+}
+.grupo{
+    display: flex;
+    gap: 1.5rem;
+}
+.campo{
+    margin-bottom: 1rem;
+}
+.campo label{
+    display: block;
+}
+.campo input[type="text"]{
+    padding: 0.5rem;
+    border: 1px solid #63A483;
+}
+.campo input[type="email"], .senha input[type="password"]{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #63A483;
+}
+.botao{
+    font-size: 1rem;
+    background-color: #63A483;
+    border: 0;
+    border-radius: 2px;
+    color: #F4F8F6;
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.senha{
+    position: relative;
+}
+.senha input[type="text"]{
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #63A483;
+}
+.senha input{
+    width: 100%;
+    outline: 0;
+    padding: 8px;
+    border: 1px solid #63A483;
+    background: transparent;
+}
+.senha i{
+    cursor: pointer;
+    color: #63A483;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}

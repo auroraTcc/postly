@@ -13,7 +13,7 @@
         $sql = "INSERT INTO usuario (nome, sobrenome, email, senha) VALUES ('$nome', '$sobrenome', '$email', '$passcript')";
 
         if($conn->query($sql) === true) {
-            header("Location: ../index.php");
+            header("Location: ../index.html");
 
         }else{
             echo "Erro ao cadastrar: " . $conn->error;

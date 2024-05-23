@@ -9,10 +9,17 @@
         $login = new Autenticacao($conn);
 
         if($login->verificarUsuario($email, $senha)){
+<<<<<<< HEAD
             header("Location: ../index.php");
             exit;
         }else{
             header("Location: ../visao/login.php?erro1");
+=======
+            header("Location: ../index.html");
+            exit;
+        }else{
+            header("Location: login.html?erro1");
+>>>>>>> camila
             exit;
         }
 

@@ -6,7 +6,7 @@
 
     $conn = new mysqli($server, $usuario, $password, $database);
     if($conn){
-        // echo "Conexão realizada";
+        echo "Conexão realizada";
     } else {
         echo "Conexão com erro";
     };
